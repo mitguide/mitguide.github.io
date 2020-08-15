@@ -2,7 +2,7 @@ import React, { Component } from "react"
 
 import Layout from "../components/layout"
 import logo from "../assets/logo.png"
-import styles from "../styles/index.module.scss"
+import styles from "./index.module.scss"
 
 class Home extends Component {
 

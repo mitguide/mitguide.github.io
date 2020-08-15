@@ -18,6 +18,7 @@ class Header extends Component {
         <div className={styles.links}>
           <Link className={styles.clickable} to="#">Posts</Link>
           <Link className={styles.clickable} to="#">Guides</Link>
+          <Link className={styles.clickable} to="/contributing">Contributing</Link>
         </div>
       </header>
     )
