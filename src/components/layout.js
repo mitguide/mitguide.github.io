@@ -1,4 +1,6 @@
 import React, { Component } from "react"
+
+import Header from "./header"
 import styles from "./layout.module.scss"
 
 class Layout extends Component {
@@ -8,7 +10,11 @@ class Layout extends Component {
 
     return (
       <div className={styles.pageContainer}>
-        { children }
+        <Header />
+
+        <main>
+          { children }
+        </main>
       </div>
     )
   }

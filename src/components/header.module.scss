@@ -1,0 +1,46 @@
+@import "../styles/variables";
+
+.headerContainer {
+  display: flex;
+  height: 60px;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  max-width: 900px;
+  margin: auto;
+
+  h1 {
+    font-family: $herofont;
+    font-size: 14pt;
+    color: $normalblack;
+  }
+
+  .clickable {
+    text-decoration: none;
+  }
+
+  .clickable > *:hover {
+    color: $hoverblack;
+    text-decoration: underline;
+  }
+
+  .homeBtn {
+    flex-basis: 10;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .links {
+    flex: 10;
+    display: flex;
+    font-family: $bodyfont;
+    font-size: 14pt;
+    justify-content: right;
+
+    a {
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+  }
+}
