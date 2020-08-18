@@ -6,26 +6,36 @@
 }
 
 .pageContainer {
-  padding-left: 20px;
-  padding-right: 20px;
   margin: auto;
   margin-bottom: 30px;
 }
 
-h1, h2, h3, h4, h5, h6, p, li, tr, th, td {
+h1, h2, h3, h4, h5, h6, p, li, tr, td, summary, details {
   color: $normalblack;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  margin-top: 10px;
-  margin-bottom: 10px;
+h1, h2, h3, h4, h5, h6, th {
   font-family: $herofont;
 }
 
-p, li, tr, th, td {
+h1, h2, h3 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+h4, h5, h6 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+p, li, tr, td, summary, details {
   font-family: $bodyfont;
   font-size: $bodyfontsize;
   line-height: 1.5em;
+}
+
+th {
+  font-size: 12pt;
 }
 
 p {

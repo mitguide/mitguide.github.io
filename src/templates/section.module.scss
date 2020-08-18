@@ -30,6 +30,10 @@ $mdwidth: 50px;
     color: lightgray;
   }
 
+  h1, h2 {
+    border-bottom: 1px solid lightgray;
+  }
+
   h3 {
     font-size: 14pt;
   }
@@ -50,8 +54,12 @@ $mdwidth: 50px;
   }
 
   hr {
-    margin-top: 10px;
+    margin-top: 20px;
     margin-bottom: 10px;
+  }
+
+  details {
+    margin-left: 14px;
   }
 
   p {
@@ -68,5 +76,14 @@ $mdwidth: 50px;
 
   code {
     font-size: 11pt;
+  }
+
+  table {
+    border-collapse: collapse;
+  }
+
+  td, th  {
+    padding: 3px 5px;
+    border: 1px solid lightgray;
   }
 }

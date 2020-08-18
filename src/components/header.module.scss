@@ -1,6 +1,10 @@
 @import "../styles/variables";
 
 .headerContainer {
+  background-color: black;
+}
+
+.widthContainer {
   display: flex;
   height: 60px;
   justify-content: space-between;
@@ -12,7 +16,7 @@
   h1 {
     font-family: $herofont;
     font-size: 13pt;
-    color: $normalblack;
+    color:#eee;
   }
 
   .clickable {
@@ -20,7 +24,7 @@
   }
 
   .clickable > *:hover {
-    color: $hoverblack !important;
+    color: #aaa !important;
     text-decoration: underline;
   }
 
@@ -36,13 +40,13 @@
     justify-content: right;
 
     a {
-      color: $normalblack !important;
+      color: #eee !important;
       padding-left: 10px;
       padding-right: 5px;
     }
 
     a:hover {
-      color: $hoverblack !important;
+      color: #aaa !important;
     }
   }
 }
