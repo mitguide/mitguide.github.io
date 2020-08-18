@@ -1,3 +1,6 @@
+const path = require('path')
+const homedir = require('os').homedir()
+
 module.exports = {
   pathPrefix: "/",
   plugins: [
@@ -14,6 +17,7 @@ module.exports = {
       resolve: `gatsby-plugin-mdx`,
       options: {
         gatsbyRemarkPlugins: [
+          require.resolve(path.join(homedir, `gatsby-remark-numbered-footnotes/src`)),
           {
             resolve: `gatsby-remark-copy-linked-files`,
             options: {

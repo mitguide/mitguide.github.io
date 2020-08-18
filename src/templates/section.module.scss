@@ -1,0 +1,72 @@
+@import "../styles/variables";
+
+$mdwidth: 50px;
+
+.contentBody {
+  padding-left: 10px;
+  padding-right: 10px;
+  max-width: $maxwidth;
+  margin: auto;
+
+  h1 {
+    font-size: 18pt;
+  }
+
+  h1::before {
+    content: "#";
+    display: inline-block;
+    width: $mdwidth;
+    color: lightgray;
+  }
+
+  h2 {
+    font-size: 16pt;
+  }
+
+  h2::before {
+    content: "##";
+    display: inline-block;
+    width: $mdwidth;
+    color: lightgray;
+  }
+
+  h3 {
+    font-size: 14pt;
+  }
+
+  h3::before {
+    content: "###";
+    display: inline-block;
+    width: $mdwidth;
+    color: lightgray;
+  }
+
+  h4 {
+    font-size: 12pt;
+  }
+
+  table {
+    width: 100%;
+  }
+
+  hr {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  p {
+    margin-left: 10px;
+  }
+
+  deckgo-highlight-code {
+    --deckgo-highlight-code-carbon-header-padding: 10px;
+    --deckgo-highlight-code-carbon-header-button-width: 10px;
+    --deckgo-highlight-code-carbon-header-button-height: 10px;
+    margin: 15px 0 15px 0;
+    --deckgo-highlight-code-carbon-box-shadow: rgba(0, 0, 0, 0.55) 0 4px 4px;
+  }
+
+  code {
+    font-size: 11pt;
+  }
+}

@@ -6,13 +6,12 @@
   justify-content: space-between;
   align-items: center;
   padding-left: 10px;
-  padding-right: 10px;
-  max-width: 900px;
+  max-width: $maxwidth;
   margin: auto;
 
   h1 {
     font-family: $herofont;
-    font-size: 14pt;
+    font-size: 13pt;
     color: $normalblack;
   }
 
@@ -21,26 +20,29 @@
   }
 
   .clickable > *:hover {
-    color: $hoverblack;
+    color: $hoverblack !important;
     text-decoration: underline;
   }
 
   .homeBtn {
     flex-basis: 10;
-    padding-left: 10px;
-    padding-right: 10px;
   }
 
   .links {
     flex: 10;
     display: flex;
-    font-family: $bodyfont;
-    font-size: 14pt;
+    font-family: $linkfont;
+    font-size: 12pt;
     justify-content: right;
 
     a {
+      color: $normalblack !important;
       padding-left: 10px;
-      padding-right: 10px;
+      padding-right: 5px;
+    }
+
+    a:hover {
+      color: $hoverblack !important;
     }
   }
 }

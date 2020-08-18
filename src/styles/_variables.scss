@@ -1,16 +1,18 @@
 // imports
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 // variables
 $herofont: "Montserrat", sans-serif;
 $herofontsize: 36pt;
-$bodyfont: "Source Sans Pro", sans-serif;
-$bodyfontsize: 14pt;
-
+$bodyfont: "Source Serif Pro", serif;
+$bodyfontsize: 13pt;
+$linkfont: "Source Sans Pro", sans-serif;
 
 $normalblack: #323232;
 $hoverblack: #030303;
 
-$maxwidth: 900px;
+$maxwidth: 800px;
 $textmaxwidth: 700px;
