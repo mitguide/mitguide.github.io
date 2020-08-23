@@ -93,19 +93,22 @@
     "title": "Orientation Kickoff!",
     "start": "2020-08-23T15:00:00-04:00",
     "end": "2020-08-23T15:45:00-04:00",
-    "url": "https://guidebook.com/guide/173503/event/26224371"
+    "url": "https://guidebook.com/guide/173503/event/26224371",
+    "backgroundColor": "#111"
   },
   {
     "title": "Flag Meeting",
     "start": "2020-08-23T16:00:00-04:00",
     "end": "2020-08-23T16:40:00-04:00",
-    "url": "https://guidebook.com/guide/173503/event/26224372"
+    "url": "https://guidebook.com/guide/173503/event/26224372",
+    "backgroundColor": "#111"
   },
   {
     "title": "OL Small Group #1",
     "start": "2020-08-23T16:30:00-04:00",
     "end": "2020-08-23T17:15:00-04:00",
-    "url": "https://guidebook.com/guide/173503/event/26224429"
+    "url": "https://guidebook.com/guide/173503/event/26224429",
+    "backgroundColor": "#111"
   },
   {
     "title": "Career Advising & Professional Development\u2019s Virtual Orientation",
@@ -118,7 +121,8 @@
     "title": "Academics @ MIT",
     "start": "2020-08-24T11:00:00-04:00",
     "end": "2020-08-24T12:00:00-04:00",
-    "url": "https://guidebook.com/guide/173503/event/26224373"
+    "url": "https://guidebook.com/guide/173503/event/26224373",
+    "backgroundColor": "#111"
   },
   {
     "title": "All About GIR 3.091: Talks with Two Docs from an Electronic Box",
@@ -129,8 +133,10 @@
   {
     "title": "Meetings with Advisors",
     "start": "2020-08-24T12:00:00-04:00",
-    "end": "2020-08-24T13:00:00-04:00",
-    "url": "https://guidebook.com/guide/173503/event/26224374"
+    "end": "2020-08-28T13:00:00-04:00",
+    "url": "https://guidebook.com/guide/173503/event/26224374",
+    "allDay": true,
+    "backgroundColor": "#111"
   },
   {
     "title": "Terrascope Orientation - Mandatory for Terrascope Students",
@@ -211,12 +217,6 @@
     "url": "https://guidebook.com/guide/173503/event/26239241"
   },
   {
-    "title": "Meetings with Advisors",
-    "start": "2020-08-24T16:00:00-04:00",
-    "end": "2020-08-24T17:00:00-04:00",
-    "url": "https://guidebook.com/guide/173503/event/26224383"
-  },
-  {
     "title": "Terrascope - Meet Your Advisor",
     "start": "2020-08-24T16:00:00-04:00",
     "end": "2020-08-24T17:00:00-04:00",
@@ -264,13 +264,6 @@
     "start": "2020-08-25T09:00:00-04:00",
     "end": "2020-08-25T14:00:00-04:00",
     "url": "https://guidebook.com/guide/173503/event/26248674",
-    "allDay": true
-  },
-  {
-    "title": "Meetings with Advisors",
-    "start": "2020-08-25T09:00:00-04:00",
-    "end": "2020-08-25T14:00:00-04:00",
-    "url": "https://guidebook.com/guide/173503/event/26224387",
     "allDay": true
   },
   {
@@ -421,13 +414,6 @@
     "allDay": true
   },
   {
-    "title": "Meetings with Advisors",
-    "start": "2020-08-26T09:00:00-04:00",
-    "end": "2020-08-26T14:00:00-04:00",
-    "url": "https://guidebook.com/guide/173503/event/26224398",
-    "allDay": true
-  },
-  {
     "title": "FGLI Student and Alumni Panel",
     "start": "2020-08-26T11:00:00-04:00",
     "end": "2020-08-26T12:00:00-04:00",
@@ -562,13 +548,6 @@
     "url": "https://guidebook.com/guide/173503/event/26224404"
   },
   {
-    "title": "Meetings with Advisors",
-    "start": "2020-08-27T09:00:00-04:00",
-    "end": "2020-08-27T17:00:00-04:00",
-    "url": "https://guidebook.com/guide/173503/event/26224405",
-    "allDay": true
-  },
-  {
     "title": "MIT Solar Electric Vehicle Team",
     "start": "2020-08-27T10:00:00-04:00",
     "end": "2020-08-27T10:20:00-04:00",
@@ -632,7 +611,8 @@
     "title": "Activities Midway",
     "start": "2020-08-27T11:00:00-04:00",
     "end": "2020-08-27T13:00:00-04:00",
-    "url": "https://guidebook.com/guide/173503/event/26244080"
+    "url": "https://guidebook.com/guide/173503/event/26244080",
+    "color": "rgb(0, 109, 219)"
   },
   {
     "title": "MakerLodge Crafting Corner",
@@ -794,7 +774,8 @@
     "title": "Online Registration Forms Due - MANDATORY for First Year Students!",
     "start": "2020-08-27T17:00:00-04:00",
     "end": "2020-08-27T17:00:00-04:00",
-    "url": "https://guidebook.com/guide/173503/event/26224415"
+    "url": "https://guidebook.com/guide/173503/event/26224415",
+    "backgroundColor": "#111"
   },
   {
     "title": "SCUFFY - Support CommUnities For First-Years",
@@ -820,7 +801,8 @@
     "title": "Orientation Closing",
     "start": "2020-08-28T12:00:00-04:00",
     "end": "2020-08-28T13:00:00-04:00",
-    "url": "https://guidebook.com/guide/173503/event/26225755"
+    "url": "https://guidebook.com/guide/173503/event/26225755",
+    "backgroundColor": "#111"
   },
   {
     "title": "SCUFFY - Support CommUnities For First-Years",

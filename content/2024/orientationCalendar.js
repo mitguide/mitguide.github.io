@@ -37,15 +37,8 @@ class OrientationCalendar extends Component {
       nowIndicator: true,
       events: events,
       expandRows: true,
-      eventBackgroundColor: "#424242",
-      eventBorderColor: "#333",
-      views: {
-        timeGridTwoDay: {
-          type: 'timeGrid',
-          duration: { days: 2 },
-          buttonText: '2 day'
-        }
-      },
+      eventBackgroundColor: "#7b7b7b",
+      eventBorderColor: "#555",
       eventClick: function(info) {
         info.jsEvent.preventDefault(); // don't let the browser navigate
 
